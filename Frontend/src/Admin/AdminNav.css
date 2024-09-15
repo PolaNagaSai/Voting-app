@@ -1,0 +1,27 @@
+.navbar{
+    display:flex;
+    background:black;
+    align-items:center;
+    margin: 10px 10px;
+    justify-content:space-around;
+}
+
+.header_msg{
+    color:#39FF14;
+}
+  
+.logout-button {
+    background-color: #FF1493; /* Light gray background or any color you prefer */
+    color: #333; /* Text color */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    outline: none; /* Remove outline */
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #dc0d0d; /* Change background color on hover */
+    border-color: #bbb; /* Optionally change border color */
+    color:#fff
+}   

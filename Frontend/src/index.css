@@ -1,0 +1,6 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(#616D90,#506d47);
+    font-family: "Ubuntu", sans-serif;
+}

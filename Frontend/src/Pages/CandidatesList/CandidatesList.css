@@ -1,0 +1,18 @@
+.candidateList{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.candidateList h1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.candidateList li{
+    display: flex;
+
+    list-style: none;
+}

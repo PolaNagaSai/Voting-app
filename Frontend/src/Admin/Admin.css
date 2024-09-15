@@ -1,0 +1,85 @@
+/* Basic resets */
+
+/* Container for the whole component */
+  div {
+    margin: 20px;
+  }
+  
+  /* Heading styles */
+  h1, h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  input[type="text"], 
+  input[type="number"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for list items */
+  ul {
+    list-style-type: none;
+  }
+  .list{
+     padding: 10px;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+  }
+  li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  li button {
+    background-color: #dc3545;
+  }
+  
+  li button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Ensure buttons are not squished */
+  button + button {
+    margin-left: 5px;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 600px) {
+    input[type="text"], 
+    input[type="number"] {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  }
+  

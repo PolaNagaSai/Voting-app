@@ -1,0 +1,30 @@
+.navbar{
+  display:flex;
+  background:black;
+  gap:30px;
+  align-items:center;
+}
+
+.navbar li{
+  list-style:none;
+  color:#ffff;
+  font-size:20px;
+  padding:10px;
+}
+
+.navbar a{
+  text-decoration:none;
+} 
+
+.navbar .red{
+  background:red;
+}
+
+.logout-button {
+  background: none;
+  border: none;
+  color: #ffff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+}

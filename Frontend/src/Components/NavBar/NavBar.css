@@ -1,0 +1,21 @@
+.nav{
+    display:flex;
+    background:black;
+    gap:30px;
+    align-items:center;
+  }
+  
+  .nav li{
+    list-style:none;
+    color:#ffff;
+    font-size:20px;
+    padding:10px;
+  }
+  
+  .nav a{
+    text-decoration:none;
+  } 
+  
+  .nav .red{
+    background:red;
+  }
